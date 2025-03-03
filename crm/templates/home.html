@@ -1,0 +1,6 @@
+<h1>Leads</h1>
+<ul>
+  {% for lead in leads %}
+    <li>{{ lead.name }} - {{ lead.email }} - {{ lead.status }}</li>
+  {% endfor %}
+</ul>
